@@ -40,3 +40,21 @@ This project demonstrates how to implement **Google Sign-In** functionality in a
    ```bash
    git clone https://github.com/Nic3holas-wq/Sign-in-with-google-authentication.git
    cd Sign-in-with-google-authentication
+2. **Setup Firebase**
+Create a Firebase project
+Register your Android app in Firebase and download the google-services.json file.
+Place google-services.json in your app/ directory.
+
+3. **Enable Google Sign-In**
+In Firebase Console → Authentication → Sign-in method → Enable Google provider.
+
+4. **Build and Run**
+Open the project in Android Studio
+Sync Gradle and run the app on your device/emulator
+
+
+**🛡️ Security Note**
+Do not expose your Firebase credentials or OAuth client secrets in public repositories. Use .gitignore to exclude sensitive files like google-services.json.
+
+**🤝 Contributing**
+Got suggestions or improvements? Feel free to open an issue or pull request.
